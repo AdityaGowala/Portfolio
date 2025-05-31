@@ -1,0 +1,21 @@
+import React from 'react'
+
+
+const AboutMe = () => {
+  return (
+    <div className='bg-orange-100 h-[1300px] w-full mt-10'>
+        <h1 className='text-[40px] font-extrabold flex justify-center underline '>About Me</h1>
+            <div className=" bg-gray-100 w-[1000px] h-[400px] p-10 flex items-center mt-12 ml-[840px] flex-col">
+               <img src="./pin.png" alt="pin" className='size-20'/>
+                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-red-400 w-6 h-6 rounded-full shadow-md border-[2px] border-white z-10"></div>
+               <p className='text-[18px] mt-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptatum aliquid, earum modi, deleniti velit repellat obcaecati, suscipit cupiditate maxime saepe voluptatibus! Ducimus dolorum in dicta reprehenderit qui nostrum dolorem voluptate, laudantium molestias nobis ut corrupti sunt facere unde. Expedita delectus laborum, amet culpa blanditiis doloremque veritatis provident? Nobis neque aperiam praesentium rerum iste, nesciunt doloremque ex a quisquam inventore. Nulla quia ullam harum. Maxime deleniti nam cum esse commodi voluptatibus obcaecati perspiciatis numquam repellendus reprehenderit inventore voluptates molestias, quae alias et ipsa eius aliquid, sit placeat eum aut laudantium. Iusto soluta perferendis quibusdam sint. Facilis eum sunt placeat sequi.</p>
+            </div>
+            <h1 className='text-[40px] font-extrabold flex justify-center underline mt-14'>Technical Expertise</h1>
+            <div className="">
+                
+            </div>
+    </div>
+  )
+}
+
+export default AboutMe
