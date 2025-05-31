@@ -9,12 +9,6 @@ const Navbar = () => {
   const navLinks = ['Home', 'About', 'Projects', 'Contact'];
 
 
-    const downloadResume = ()=>{
-
-    }
-
-
-
   return (
     <nav className="fixed w-full bg-white shadow-md z-50">
       <div className="flex justify-between items-center h-20 px-6 md:px-10 lg:px-16">

@@ -5,7 +5,7 @@ const projects = [
     title: 'Face Recognition Attendance System',
     description:
       'Smart attendance system using face recognition technology for seamless and accurate attendance tracking. Built with React frontend and Python backend.',
-    liveLink: '#',
+    liveLink: 'https://face-recognition-webapplication.netlify.app/',
     sourceLink: '#',
     image:
       './face_recognition.png',

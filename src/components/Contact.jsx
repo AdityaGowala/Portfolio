@@ -59,13 +59,13 @@ const Contact = () => {
           <div className="space-y-6 text-lg md:text-xl">
             <div className="flex items-center gap-4 text-gray-800 hover:text-green-700 transition cursor-pointer">
               <Mail className="w-7 h-7 flex-shrink-0" />
-              <a href="mailto:your.email@example.com" className="font-medium">
+              <a href=" adityagowala656@gmail.com" className="font-medium">
                 adityagowala656@gmail.com
               </a>
             </div>
             <div className="flex items-center gap-4 text-gray-800 hover:text-green-700 transition cursor-pointer">
               <Phone className="w-7 h-7 flex-shrink-0" />
-              <a href="tel:+1234567890" className="font-medium">
+              <a href="tel:+919083194806" className="font-medium">
                 +91 9083194806
               </a>
             </div>

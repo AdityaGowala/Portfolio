@@ -39,7 +39,7 @@ const Hero = () => {
           </p>
 
           <button className="mt-6 px-6 py-3 bg-green-600 text-white rounded-sm hover:bg-green-700 transition-all">
-            Get in touch
+            <a href="#contact">Get in touch</a>
           </button>
         </div>
       </div>
