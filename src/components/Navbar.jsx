@@ -69,7 +69,7 @@ const Navbar = () => {
 
           {/* Resume Button */}
          <a
-  href={`${process.env.PUBLIC_URL}/My_Resume.pdf`}
+  href="/Portfolio/My_Resume.pdf"
   target="_blank"
   className="px-4 py-2 bg-green-600 text-white rounded-md font-semibold hover:bg-green-700 transition"
 >
@@ -120,7 +120,7 @@ const Navbar = () => {
             </a>
           </div>
           <a
-           href={`${process.env.PUBLIC_URL}/My_Resume.pdf`}
+            href="/My_Resume.pdf"
             className="block w-full text-center mt-2 px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition"
           >
             Resume
