@@ -2,6 +2,23 @@ import React, { useState } from 'react';
 
 const projects = [
   {
+    title: 'PrimeCare - Doctor Appointment System',
+    description:
+      'PrimeCare is a full-featured web application for managing doctor appointments, built with React for the frontend, Node.js/Express for the backend, and a separate admin dashboard. It allows patients to book appointments, doctors to manage their schedules, and admins to manage users and appointments.',
+    liveLink: 'https://primecare-frontend-u848.onrender.com/',
+    sourceLink: '#',
+    image:
+      './PrimeCare.png',
+  },
+  {
+    title: 'Whispr — Real-Time Chat Application',
+    description:'Whispr is a full-stack real-time chat application built using React, Node.js, Express, MongoDB, and Socket.IO. It allows users to chat instantly, view online/offline status, edit their profiles, and manage conversations with a clean, modern interface.' , 
+    liveLink: 'https://whispr-bzcg.onrender.com/',
+    sourceLink: '#',
+    image:
+      './Whispr.png',
+  },
+  {
     title: 'Face Recognition Attendance System',
     description:
       'Smart attendance system using face recognition technology for seamless and accurate attendance tracking. Built with React frontend and Python backend.',
